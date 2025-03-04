@@ -10,4 +10,5 @@ https://github.com/NanoFerreira/Resume/blob/86e25ea7dd45f811b61168199ae6d41aa3c8
 ## Aaron Yemisrach
 https://shorturl.at/AYFxX
  - External Communicator: Facilitated technical discussions within the team, as well as communicated with customers ensuring proper feedback. Making sure everyone's voice is heard.
- - Backlogger: Docummentated each step of the project's work 
+ - Backlogger: Documentated each step of the project's work. Ensuring the timeline and expectations created were met.
+ - Interacion Software Engineer: Implements the python scripts necessary for the front end page and the database behind it to interact swiftly.
