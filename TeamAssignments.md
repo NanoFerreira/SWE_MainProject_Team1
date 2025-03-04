@@ -6,5 +6,6 @@ https://github.com/NanoFerreira/Resume/blob/86e25ea7dd45f811b61168199ae6d41aa3c8
  - Database Systems Engineer
 
 ## Aaron Yemisrach
+https://shorturl.at/AYFxX
 
  - External Communicator
