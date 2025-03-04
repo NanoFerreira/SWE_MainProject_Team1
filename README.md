@@ -8,12 +8,16 @@
 • We are excited to show you our process through the different aspects of our software engineering work! Check out the sections below and follow the links for more details. Thank you for taking the time to explore our work!
 
 # Meet our Team
+
 •Aaron Yemisrach https://shorturl.at/AYFxX
+
 •Bryan Julius    
+
 •Juan Ferreira
 
 # Team Assignments 
-•To distribute work efficiently for this project, we assigned our three-person team to three roles: workflow manager, database manager, and external communicator.
+•To distribute work efficiently for this project, we assigned our three-person team to three roles: Workflow manager, Database manager, and External communicator.
+
 • Click here for a detailed explanation of what technologies and tools we are using and why.
 
 
