@@ -1,0 +1,8 @@
+Juan Ferreira
+ - WorkFlow Manager
+
+Bryan Julius
+ - Database 
+
+Aaron Yemisrach
+ - External Communicator
