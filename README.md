@@ -9,11 +9,11 @@
 
 # Meet our Team
 
-•Aaron Yemisrach https://shorturl.at/dbckp
+•Aaron Yemisrach   [Resume](https://shorturl.at/dbckp)
 
-•Bryan Julius 
+•Bryan Julius      [Resume](https://shorturl.at/CXHMR)
 
-•Juan Ferreira https://shorturl.at/ji5R3
+•Juan Ferreira     [Resume](https://shorturl.at/ji5R3)
 
 # Team Assignments 
 •To distribute work efficiently for this project, we assigned our three-person team to three roles: Workflow manager, Database manager, and External communicator.
