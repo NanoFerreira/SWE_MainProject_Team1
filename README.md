@@ -9,9 +9,9 @@
 
 # Meet our Team
 
-•Aaron Yemisrach https://github.com/AaronYem/Resume/blob/main/RES.md
+•Aaron Yemisrach https://shorturl.at/dbckp
 
-•Bryan Julius    
+•Bryan Julius https://shorturl.at/ji5R3
 
 •Juan Ferreira
 
