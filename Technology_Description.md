@@ -18,4 +18,3 @@
 - 
 ## Additional Software Necessary
 - **YouTrack** ([YouTrack](https://www.jetbrains.com/youtrack/)) - For issue tracking and agile project management.
-
