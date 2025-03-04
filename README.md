@@ -20,4 +20,8 @@
 
 • Click [here](https://github.com/NanoFerreira/SWE_MainProject_Team1/blob/d5635336cd4661c302d99a60f88648b5fedeb519/TeamAssignments.md) for a detailed explanation of what technologies and tools we are using and why.
 
+# Technology Selection
+To build our application, we will be coding in Python using Flask. We will use a JSON database to store user and item attributes.
+
+Click [here]() for a detailed explanation of the technologies and tools we are using and why.
 
