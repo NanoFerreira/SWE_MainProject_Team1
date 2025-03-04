@@ -27,5 +27,5 @@ Click [here](https://github.com/NanoFerreira/SWE_MainProject_Team1/blob/3cf10314
 
 # Gnatt Chart
 
-Click [here]() to view our project plan Gantt Chart in YouTrack.
+Click [here](https://motorsports.youtrack.cloud/gantt-charts/226-0) to view our project plan Gantt Chart in YouTrack.
 
