@@ -9,7 +9,7 @@
 
 # Meet our Team
 
-•Aaron Yemisrach https://shorturl.at/AYFxX
+•Aaron Yemisrach [https://shorturl.at/AYFxX](https://github.com/AaronYem/Resume/blob/main/RES.md)
 
 •Bryan Julius    
 
