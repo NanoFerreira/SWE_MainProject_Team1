@@ -18,6 +18,6 @@
 # Team Assignments 
 •To distribute work efficiently for this project, we assigned our three-person team to three roles: Workflow manager, Database manager, and External communicator.
 
-• Click here for a detailed explanation of what technologies and tools we are using and why.
+• Click [here](https://github.com/NanoFerreira/SWE_MainProject_Team1/blob/d5635336cd4661c302d99a60f88648b5fedeb519/TeamAssignments.md) for a detailed explanation of what technologies and tools we are using and why.
 
 
