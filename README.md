@@ -11,9 +11,9 @@
 
 •Aaron Yemisrach https://shorturl.at/dbckp
 
-•Bryan Julius https://shorturl.at/ji5R3
+•Bryan Julius 
 
-•Juan Ferreira
+•Juan Ferreira https://shorturl.at/ji5R3
 
 # Team Assignments 
 •To distribute work efficiently for this project, we assigned our three-person team to three roles: Workflow manager, Database manager, and External communicator.
