@@ -17,5 +17,5 @@
 - **Development Environment:** IntelliJ / VS Code
 - 
 ## Additional Software Necessary
-- **Trello ([Trello](https://trello.com/)) - Used to track project management and sprint planning.
+- **YouTrack** ([YouTrack](https://www.jetbrains.com/youtrack/)) - For issue tracking and agile project management.
 
