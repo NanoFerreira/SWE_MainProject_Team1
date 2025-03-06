@@ -18,12 +18,12 @@
 # Team Assignments 
 •To distribute work efficiently for this project, we assigned our three-person team to three roles: Workflow manager, Database manager, and External communicator.
 
-• Click [here](https://github.com/NanoFerreira/SWE_MainProject_Team1/blob/d5635336cd4661c302d99a60f88648b5fedeb519/TeamAssignments.md) for a detailed explanation of what technologies and tools we are using and why.
+• Click [here](TeamAssignments.md) for a detailed explanation of what technologies and tools we are using and why.
 
 # Technology Selection
 To build our application, we will be coding in Python using Flask. We will use a JSON database to store user and item attributes.
 
-Click [here](https://github.com/NanoFerreira/SWE_MainProject_Team1/blob/3cf103146e269ee0e5bcfa5ddd8ecedd6b80e225/Technology_Description.md) for a detailed explanation of the technologies and tools we are using and why.
+Click [here](Technology_Description.md) for a detailed explanation of the technologies and tools we are using and why.
 
 # Gnatt Chart
 
