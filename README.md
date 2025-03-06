@@ -20,7 +20,7 @@
 - For each of the main three project Sprints (UI, Technology, Implementation), we have delegated a lead programmer for each sprint. While we will all share the workload for each sprint. The lead programmer will focus on laying the foundation for each respective sprint.
 - Additionally, we have divided our roles in a general sense throughout all sprints. To ensure proper communication and documentation, each member will deal with future expectations, current performance, and backlogging and feedback.
 
-• Click [here](TeamAssignments.md) for a detailed explanation of what technologies and tools we are using and why.
+• Click [here](TeamAssignments.md) for a detailed breakdown of each of the team member's roles.
 
 # Technology Selection
 To build our application, we will be coding in Python using Flask. We will use a JSON database to store user and item attributes.
