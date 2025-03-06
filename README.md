@@ -32,5 +32,5 @@ Click [here](Technology_Description.md) for a detailed explanation of the techno
 Click [here](https://motorsports.youtrack.cloud/gantt-charts/226-0) to view our project plan Gantt Chart in YouTrack.
 
 # Video Presentations
-For all our video presentation and tech demos, you can acces them [here](Video_Presentations.md)
+For all our video presentation and tech demos, you can access them [here](Video_Presentations.md)
 
