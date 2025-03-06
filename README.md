@@ -27,7 +27,10 @@ To build our application, we will be coding in Python using Flask. We will use a
 
 Click [here](Technology_Description.md) for a detailed explanation of the technologies and tools we are using and why.
 
-# Gnatt Chart
+# Gantt Chart
 
 Click [here](https://motorsports.youtrack.cloud/gantt-charts/226-0) to view our project plan Gantt Chart in YouTrack.
+
+# Tech Demos
+For all our video presentation and tech demos, you can acces them [here]()
 
