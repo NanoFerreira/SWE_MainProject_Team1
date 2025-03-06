@@ -1,6 +1,6 @@
 # Team 1 - Intro to SWE project
 
-• Welcome to Team 1’s project repository for SWE 3313, (Introduction to Software Engineering). Our Presentations, Documentation, Source code and artifacts will be located here and updated as the project continues.
+• Welcome to Team 1’s project repository for SWE 3313, (Introduction to Software Engineering). Our Presentations, Documentation, Source code, and artifacts will be located here and updated as the project continues.
 
 
 • For our application we are designing an E-Commerce vehicle website In Python using Flask and Json In order to create a vehicle marketplace. 
@@ -17,8 +17,8 @@
 
 # Team Assignments 
 •To distribute work efficiently for this project, we are dividing our workflow in two different ways. 
-- For each of the main three project Sprints (UI, Technology, Implementation), we have delegated a lead programmer for each sprint. While we will all share the workload for each sprint. The lead programmer will focus on laying the foundation for each respective sprint.
-- Additionally, we have divided our roles in a general sense throughout all sprints. To ensure proper communication and documentation, each member will deal with future expectations, current performance, and backlogging and feedback.
+- For each of the main three project Sprints (UI, Technology, Implementation), we have delegated a lead programmer for each sprint. We will all share the workload for each sprint. The lead programmer will focus on laying the foundation for each respective sprint.
+- Additionally, we have divided our roles in a general sense throughout all sprints. To ensure proper communication and documentation, each member will deal with future expectations, current performance, backlogging, and feedback.
 
 • Click [here](TeamAssignments.md) for a detailed breakdown of each of the team member's roles.
 
@@ -32,5 +32,5 @@ Click [here](Technology_Description.md) for a detailed explanation of the techno
 Click [here](https://motorsports.youtrack.cloud/gantt-charts/226-0) to view our project plan Gantt Chart in YouTrack.
 
 # Video Presentations
-For all our video presentation and tech demos, you can access them [here](Video_Presentations.md)
+For all our video presentations and tech demos, you can access them [here](Video_Presentations.md)
 
