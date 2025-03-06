@@ -13,7 +13,7 @@
 
 •Bryan Julius      [Resume](https://shorturl.at/CXHMR)
 
-•Juan Ferreira     [Resume](https://shorturl.at/ji5R3)
+•Juan Ferreira     [Resume](Juan_Resume.md)
 
 # Team Assignments 
 •To distribute work efficiently for this project, we assigned our three-person team to three roles: Workflow manager, Database manager, and External communicator.
