@@ -11,7 +11,7 @@
 
 •Aaron Yemisrach   [Resume](https://shorturl.at/dbckp)
 
-•Bryan Julius      [Resume](https://shorturl.at/CXHMR)
+•Bryan Julius      [Resume](Bryan_Resume.md)
 
 •Juan Ferreira     [Resume](Juan_Resume.md)
 
