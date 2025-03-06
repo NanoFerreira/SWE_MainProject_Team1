@@ -16,7 +16,9 @@
 •Juan Ferreira     [Resume](Juan_Resume.md)
 
 # Team Assignments 
-•To distribute work efficiently for this project, we assigned our three-person team to three roles: Workflow manager, Database manager, and External communicator.
+•To distribute work efficiently for this project, we are dividing our workflow in two different ways. 
+- For each of the main three project Sprints (UI, Technology, Implementation), we have delegated a lead programmer for each sprint. While we will all share the workload for each sprint. The lead programmer will focus on laying the foundation for each respective sprint.
+- Additionally, we have divided our roles in a general sense throughout all sprints. 
 
 • Click [here](TeamAssignments.md) for a detailed explanation of what technologies and tools we are using and why.
 
