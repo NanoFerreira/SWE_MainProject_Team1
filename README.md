@@ -9,7 +9,7 @@
 
 # Meet our Team
 
-•Aaron Yemisrach   [Resume](https://shorturl.at/dbckp)
+•Aaron Yemisrach   [Resume](Aaron_Resume.md)
 
 •Bryan Julius      [Resume](Bryan_Resume.md)
 
