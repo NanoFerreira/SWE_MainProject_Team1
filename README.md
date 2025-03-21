@@ -43,15 +43,15 @@ You may go to the Video Presentations section of the document to find the presen
 
 ## Requirements
 
-- For a detailed breakdown of what requirements will be taken into account and prioritized, please click [here]()
-
-- For an exploration on what requirements will be implemented for version 1.0, please click [here]()
+- Click [here]() for a detailed breakdown of what requirements will be taken into account and prioritized.
+  
+- Click [here]() for an exploration on what requirements will be implemented for version 1.0.
 
 ## Use case Diagram
 
-- For a Diagram dissecting the different use cases clients and admins may go through, please click [here]()
+- Click [here]() for a Diagram dissecting the different use cases clients and admins may go through. 
 
-- For a Decision table detailing the thought process that goes behind each of the users and admins can perform, please click [here]()
+- Click [here]() for a Decision table detailing the thought process that goes behind each of the users and admins can perform. 
 
 
 
