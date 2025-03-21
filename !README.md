@@ -43,9 +43,9 @@ You may go to the Video Presentations section of the document to find the presen
 
 ## Requirements
 
-- Click [here]() for a detailed breakdown of what requirements will be taken into account and prioritized.
+- Click [here](Requirement_Writing.md) for a detailed breakdown of what requirements will be taken into account and prioritized.
   
-- Click [here]() for an exploration on what requirements will be implemented for version 1.0.
+- Click [here](1.0_Version_Expectations.md) for an exploration on what requirements will be implemented for version 1.0.
 
 ## Use case Diagram
 
