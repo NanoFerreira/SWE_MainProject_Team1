@@ -37,7 +37,7 @@ For all our video presentations and tech demos, you can access them [here](Video
 
 # Project Requirements
 
-In this section of the document, we will specify every requirement that we seek to meet during the duration of the project. All specific features, logic, and use cases will be presented here. These requirements have been selected based on our scope, taking the requests made in the client's elicitation not long ago.
+In this section of the document, we will specify every requirement that we seek to meet during the duration of the project. All specific features, logic, and use cases will be presented here. These requirements have been selected based on our scope, taking the requests made in the client's elicitation.
 
 You may go to the Video Presentations section of the document to find the presentation related to the Project Requirements, as well as all future presentations.
 
