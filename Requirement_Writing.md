@@ -20,10 +20,28 @@
    * **Description:** Previous Admins must be able to promote a standard user to admin
    * **Estimated effort:** 0.6 Days
    * **Requirement Type:** Functional
-4. KM1S-3
+4. KM1S-4
    * **Description:** All users must have a unique username and a minimum 6-character password
    * **Estimated effort:** 0.5 Days
-   * **Requirement Type:** Non-Functional  
+   * **Requirement Type:** Non-Functional
+  
+### KM1E-2 Inventory Display & Shopping Experience
+1. KM2S-1
+   * **Description:** Users must have access to a list of the available inventory
+   * **Estimated effort:** 3 Days
+   * **Requirement Type:** Functional
+2. KM2S-2
+   * **Description:** Inventory must be sorted by price from highest to lowest.
+   * **Estimated effort:** 0.5 Days
+   * **Requirement Type:** Non-Functional
+3. KM2S-3
+   * **Description:** Sold Items must not be displayed
+   * **Estimated effort:** 0.6 Days
+   * **Requirement Type:** Non-Functional
+4. KM2S-4
+   * **Description:** Each inventory must include Name, 1+ pictures, price, description, add to cart option
+   * **Estimated effort:** 4 Days
+   * **Requirement Type:** Functional  
 
 
 
