@@ -6,8 +6,6 @@
 * Requirements will also contain information on their level of priority, estimated effort, and whether or not they qualify as functional requirements. A brief description of the requirement will also be provided.
 
 # Version 1.0
-## Milestone 1
-The following requirements are those to be fullfiled first
 
 ### KM1E-1 User Registration and Authentication
 1. KM1S-1
