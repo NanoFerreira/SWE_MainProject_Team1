@@ -10,8 +10,22 @@
 The following requirements are those to be fullfiled first
 
 ### KM1E-1 User Registration and Authentication
-* KM1S-1 Users must have the ability to self-register and log-in to the website
-  
-* KM1S-2 Admins must be able to log-in
+1. KM1S-1
+   * **Description:** Users must have the ability to self-register and log-in to the website
+   * **Estimated effort:** 1.5 Days
+   * **Requirement Type:** Functional
+2. KM1S-2
+   * **Description:** Admins must be able to log-in, but not self-register.
+   * **Estimated effort:** 1.2 Days
+   * **Requirement Type:** Functional
+3. KM1S-3
+   * **Description:** Previous Admins must be able to promote a standard user to admin
+   * **Estimated effort:** 0.6 Days
+   * **Requirement Type:** Functional
+4. KM1S-3
+   * **Description:** All users must have a unique username and a minimum 6-character password
+   * **Estimated effort:** 0.5 Days
+   * **Requirement Type:** Non-Functional  
+
 
 
