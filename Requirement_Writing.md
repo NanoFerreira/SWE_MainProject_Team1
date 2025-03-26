@@ -55,7 +55,7 @@
   
 # Milestone 2
   
-## KM1E-3 Shopping Cart & Checkout Process
+## KM2E-3 Shopping Cart & Checkout Process
 1. KM3S-1
    * **Description:** Users must be able to add multiple items to their cart
    * **Estimated effort:** 0.7 Days
@@ -77,7 +77,7 @@
    * **Estimated effort:** 3 Days
    * **Requirement Type:** Functional
      
-## KM1E-4 Shopping Cart & Checkout Process
+## KM2E-4 Receipts and Order Confirmation
 1. KM4S-1
    * **Description:** On order confirmation, the page must deduct items from the inventory, display a receipt, and prevent returning to the payment page.
    * **Estimated effort:** 1 Days
@@ -99,7 +99,7 @@
 
 # Milestone 3:
 
-## KM1E-5 Admin Features
+## KM3E-5 Admin Features
 1. KM5S-1
    * **Description:** Admins must be able to view sales reports. They must show purchased items, customer, and receipt
    * **Estimated effort:** 2 Days
