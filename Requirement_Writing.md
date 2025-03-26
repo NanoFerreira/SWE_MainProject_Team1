@@ -115,35 +115,36 @@
   
 # Future Versions
 
-KMFS-1 
+1. KMFS-1 
    * **Description:** Multiple pictures per inventory item.
    * **Estimated effort:** 0.7 Days
    * **Requirement Type:** Non-Functional
-KMFS-2 
+2. KMFS-2 
    * **Description:** Admins being promoted through UI
    * **Estimated effort:** 1.4 Day
    * **Requirement Type:** Non-Functional
-KMFS-3 
+3. KMFS-3 
    * **Description:** Ability to place filters and sorting when searching
    * **Estimated effort:** 1 Day
    * **Requirement Type:** Non-Functional
-KMFS-4 
+4. KMFS-4 
    * **Description:** Email integration for sending email receipts
    * **Estimated effort:** 1,5 Days
    * **Requirement Type:** Functional
-KMFS-5 
+5. KMFS-5 
    * **Description:** Automated inventory entry
    * **Estimated effort:** 2 Days
    * **Requirement Type:** Functional
-KMFS-6 
+6. KMFS-6 
    * **Description:** Shipping tracking integration that updates order status.
    * **Estimated effort:** 2-3 Days
    * **Requirement Type:** Functional
-KMFS-7
+7. KMFS-7
    * **Description:** User order history page to review past purchaces
    * **Estimated effort:** 1 Day
    * **Requirement Type:** Non-Functional
-KMFS-8
+8. KMFS-8
    * **Description:** Discount codes for promotional pricing
    * **Estimated effort:** 0.7 Days
    * **Requirement Type:** Non-Functional
++
