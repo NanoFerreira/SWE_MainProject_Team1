@@ -1,9 +1,9 @@
 
 # Requirements Writing
 
-* The Following Document will list every requirement taken into consideration for the elaboration of this project. Requirements will be separated and categorized according to the version they seek to be implemented in, as well as the Epic that they belong to. Each Requirement, as well as the Epic they belong to, will have a unique ID for ease of access. 
+* The Following Document will list every requirement considered for the elaboration of this project. Requirements will be separated and categorized according to the version they seek to be implemented in, as well as the Epic that they belong to. Each Requirement, as well as the Epic they belong to, will have a unique ID for ease of access. 
 
-* Requirements will also contain information on their level of priority, estimated effort, and whether or not they qualify as functional requirements. A brief description of the requirement will also be provided.
+* Requirements will also contain information on their priority level, estimated effort, and whether or not they qualify as functional requirements. A brief description of the requirements will also be provided.
 
 # Version 1.0
 
@@ -13,11 +13,11 @@
 
 ### KM1E-1 User Registration and Authentication
 1. KM1S-1
-   * **Description:** Users must have the ability to self-register and log-in to the website
+   * **Description:** Users must have the ability to self-register and log in to the website
    * **Estimated effort:** 1.5 Days
    * **Requirement Type:** Functional
 2. KM1S-2
-   * **Description:** Admins must be able to log-in, but not self-register.
+   * **Description:** Admins must be able to log, in but not self-register.
    * **Estimated effort:** 1.2 Days
    * **Requirement Type:** Functional
 3. KM1S-3
@@ -47,7 +47,7 @@
    * **Estimated effort:** 4 Days
    * **Requirement Type:** Functional  
 5. KM2S-5
-    * **Description:** Price must be stored in decimal/currency format that is base 10. Price must not be a floating point.
+    * **Description:** Price must be stored in decimal/currency format that is base 10. The price must not be a floating point.
    * **Estimated effort:** 0.5 Days
    * **Requirement Type:** Non-Functional
 
@@ -73,7 +73,7 @@
    * **Estimated effort:** 0.7 Days
    * **Requirement Type:** Non-Functional  
 5. KM3S-5
-    * **Description:** On pay now, Users must enter a shipping address, credit card details, phone number, and a shipping option.
+    * **Description:** On Pay Now, Users must enter a shipping address, credit card details, phone number, and a shipping option.
    * **Estimated effort:** 3 Days
    * **Requirement Type:** Functional
      
@@ -83,7 +83,7 @@
    * **Estimated effort:** 1 Days
    * **Requirement Type:** Functional
 2. KM4S-2
-   * **Description:** The receipts must show items purchased, last four digits of the credit card, shipping, and final total
+   * **Description:** The receipts must show items purchased, the last four digits of the credit card, shipping, and the final total
    * **Estimated effort:** 1.5 Days
    * **Requirement Type:** Non-Functional
 3. KM4S-3
@@ -140,11 +140,11 @@
    * **Estimated effort:** 2-3 Days
    * **Requirement Type:** Functional
 7. KMFS-7
-   * **Description:** User order history page to review past purchaces
+   * **Description:** User order history page to review past purchases
    * **Estimated effort:** 1 Day
    * **Requirement Type:** Non-Functional
 8. KMFS-8
    * **Description:** Discount codes for promotional pricing
    * **Estimated effort:** 0.7 Days
    * **Requirement Type:** Non-Functional
-+
+
