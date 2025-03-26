@@ -9,9 +9,9 @@
 
 
 
-# Milestone 1
+## Milestone 1
 
-## KM1E-1 User Registration and Authentication
+### KM1E-1 User Registration and Authentication
 1. KM1S-1
    * **Description:** Users must have the ability to self-register and log-in to the website
    * **Estimated effort:** 1.5 Days
@@ -29,7 +29,7 @@
    * **Estimated effort:** 0.5 Days
    * **Requirement Type:** Non-Functional
   
-## KM1E-2 Inventory Display & Shopping Experience
+### KM1E-2 Inventory Display & Shopping Experience
 1. KM2S-1
    * **Description:** Users must have access to a list of the available inventory
    * **Estimated effort:** 3 Days
@@ -53,9 +53,9 @@
 
 
   
-# Milestone 2
+## Milestone 2
   
-## KM2E-3 Shopping Cart & Checkout Process
+### KM2E-3 Shopping Cart & Checkout Process
 1. KM3S-1
    * **Description:** Users must be able to add multiple items to their cart
    * **Estimated effort:** 0.7 Days
@@ -77,7 +77,7 @@
    * **Estimated effort:** 3 Days
    * **Requirement Type:** Functional
      
-## KM2E-4 Receipts and Order Confirmation
+### KM2E-4 Receipts and Order Confirmation
 1. KM4S-1
    * **Description:** On order confirmation, the page must deduct items from the inventory, display a receipt, and prevent returning to the payment page.
    * **Estimated effort:** 1 Days
@@ -97,9 +97,9 @@
 
 
 
-# Milestone 3:
+## Milestone 3:
 
-## KM3E-5 Admin Features
+### KM3E-5 Admin Features
 1. KM5S-1
    * **Description:** Admins must be able to view sales reports. They must show purchased items, customer, and receipt
    * **Estimated effort:** 2 Days
@@ -112,3 +112,38 @@
    * **Description:** Admins must be able to add inventory to the system.
    * **Estimated effort:** 1 Day
    * **Requirement Type:** Functional
+  
+# Future Versions
+
+KMFS-1 
+   * **Description:** Multiple pictures per inventory item.
+   * **Estimated effort:** 0.7 Days
+   * **Requirement Type:** Non-Functional
+KMFS-2 
+   * **Description:** Admins being promoted through UI
+   * **Estimated effort:** 1.4 Day
+   * **Requirement Type:** Non-Functional
+KMFS-3 
+   * **Description:** Ability to place filters and sorting when searching
+   * **Estimated effort:** 1 Day
+   * **Requirement Type:** Non-Functional
+KMFS-4 
+   * **Description:** Email integration for sending email receipts
+   * **Estimated effort:** 1,5 Days
+   * **Requirement Type:** Functional
+KMFS-5 
+   * **Description:** Automated inventory entry
+   * **Estimated effort:** 2 Days
+   * **Requirement Type:** Functional
+KMFS-6 
+   * **Description:** Shipping tracking integration that updates order status.
+   * **Estimated effort:** 2-3 Days
+   * **Requirement Type:** Functional
+KMFS-7
+   * **Description:** User order history page to review past purchaces
+   * **Estimated effort:** 1 Day
+   * **Requirement Type:** Non-Functional
+KMFS-8
+   * **Description:** Discount codes for promotional pricing
+   * **Estimated effort:** 0.7 Days
+   * **Requirement Type:** Non-Functional
