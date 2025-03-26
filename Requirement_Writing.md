@@ -7,6 +7,10 @@
 
 # Version 1.0
 
+
+
+# Milestone 1
+
 ## KM1E-1 User Registration and Authentication
 1. KM1S-1
    * **Description:** Users must have the ability to self-register and log-in to the website
@@ -47,6 +51,9 @@
    * **Estimated effort:** 0.5 Days
    * **Requirement Type:** Non-Functional
 
+
+  
+# Milestone 2
   
 ## KM1E-3 Shopping Cart & Checkout Process
 1. KM3S-1
@@ -71,8 +78,8 @@
    * **Requirement Type:** Functional
      
 ## KM1E-4 Shopping Cart & Checkout Process
-1. KM3S-1
-    * **Description:** On order confirmation, the page must deduct items from the inventory, display a receipt, and prevent returning to the payment page.
+1. KM4S-1
+   * **Description:** On order confirmation, the page must deduct items from the inventory, display a receipt, and prevent returning to the payment page.
    * **Estimated effort:** 1 Days
    * **Requirement Type:** Functional
 2. KM4S-2
@@ -86,6 +93,22 @@
 4. KM4S-4
    * **Description:** Users may click OK to return to their main page. Their purchase items must no longer be visible
    * **Estimated effort:** 0.7 Days
-   * **Requirement Type:** Non-Functional  
+   * **Requirement Type:** Non-Functional
 
 
+
+# Milestone 3:
+
+## KM1E-5 Admin Features
+1. KM5S-1
+   * **Description:** Admins must be able to view sales reports. They must show purchased items, customer, and receipt
+   * **Estimated effort:** 2 Days
+   * **Requirement Type:** Functional
+2. KM5S-2
+   * **Description:** Admins must have the ability to export sales reports.
+   * **Estimated effort:** 1.5 Days
+   * **Requirement Type:** Functional
+3. KM5S-3
+   * **Description:** Admins must be able to add inventory to the system.
+   * **Estimated effort:** 1 Day
+   * **Requirement Type:** Functional
