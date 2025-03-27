@@ -45,7 +45,7 @@ You may go to the Video Presentations section of the document to find the presen
 
 - Click [here](Requirement_Writing.md) for a detailed breakdown of what requirements will be taken into account and prioritized.
 
-## Use case Diagram
+## Use Case Diagram & Decision Table
 
 - Click [here]() for a Diagram dissecting the different use cases clients and admins may go through. 
 
