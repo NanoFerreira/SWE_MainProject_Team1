@@ -16,9 +16,9 @@
 •Juan Ferreira     [Resume](Juan_Resume.md)
 
 ## Team Assignments 
-•To distribute work efficiently for this project, we are dividing our workflow in two different ways. 
-- For each of the main three project Sprints (UI, Technology, Implementation), we have delegated a lead programmer for each sprint. We will all share the workload for each sprint. The lead programmer will focus on laying the foundation for each respective sprint.
-- Additionally, we have divided our roles in a general sense throughout all sprints. To ensure proper communication and documentation, each member will deal with future expectations, current performance, backlogging, and feedback.
+* To distribute work efficiently for this project, we are dividing our workflow in two different ways. 
+* For each of the main three project Sprints (UI, Technology, Implementation), we have delegated a lead programmer for each sprint. We will all share the workload for each sprint. The lead programmer will focus on laying the foundation for each respective sprint.
+* Additionally, we have divided our roles in a general sense throughout all sprints. To ensure proper communication and documentation, each member will deal with future expectations, current performance, backlogging, and feedback.
 
 • Click [here](TeamAssignments.md) for a detailed breakdown of each of the team member's roles.
 
