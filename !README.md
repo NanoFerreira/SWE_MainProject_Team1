@@ -53,7 +53,7 @@ You may go to the Video Presentations section of the document to find the presen
 
 ## User Interface Design
 
-* Click [here](https://marvelapp.com/prototype/34176hi6) Click here to explore the user interface of our application.
+* Click [here](https://marvelapp.com/prototype/34176hi6) to explore the user interface of our application.
 
 
 
