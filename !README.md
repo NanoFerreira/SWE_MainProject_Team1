@@ -53,8 +53,7 @@ You may go to the Video Presentations section of the document to find the presen
 
 ## User Interface Design
 
-* Click [here]() To 
-
+* Click [here]() Click here to explore the user interface of our application.
 
 
 
