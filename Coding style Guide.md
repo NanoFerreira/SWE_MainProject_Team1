@@ -7,7 +7,7 @@ This guide helps our team write clean, consistent, and easy-to-read code. All co
 ## Python Style
 
 - Follow [PEP 8](https://peps.python.org/pep-0008/)
-- Use 4 spaces for indentation (not tabs)
+- Use 4 spaces for indentation
 - Keep lines under 100 characters
 - Use blank lines between functions and classes
 - Add docstrings to all functions and classes
