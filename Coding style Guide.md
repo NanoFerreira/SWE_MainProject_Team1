@@ -1,10 +1,10 @@
-# 🧭 Coding Style Guide – Team 1 Vehicle Marketplace
+# Coding Style Guide 
 
 This guide helps our team write clean, consistent, and easy-to-read code. All code should follow this style so that our project looks like it was written by one person — even when we work on it together.
 
 ---
 
-## 🐍 Python Style
+##  Python Style
 
 - Follow [PEP 8](https://peps.python.org/pep-0008/)
 - Use 4 spaces for indentation (not tabs)
@@ -13,7 +13,7 @@ This guide helps our team write clean, consistent, and easy-to-read code. All co
 - Add docstrings to all functions and classes
 - Use comments to explain tricky logic or important steps
 
-### ✅ Naming Conventions
+### Naming Conventions
 
 | Item        | Format Example            |
 |-------------|----------------------------|
@@ -41,7 +41,7 @@ Use [Jinja2 syntax](https://jinja.palletsprojects.com/en/3.1.x/templates/) in al
 
 ---
 
-## 🧪 Testing
+## Testing
 
 - Use `pytest`
 - Test files go in the `tests/` folder
@@ -50,7 +50,7 @@ Use [Jinja2 syntax](https://jinja.palletsprojects.com/en/3.1.x/templates/) in al
 
 ---
 
-## 🌱 Git & Branching Rules
+##  Git & Branching Rules
 
 - Use [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 
