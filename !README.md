@@ -63,7 +63,7 @@ Click [here](https://github.com/NanoFerreira/SWE_MainProject_Team1/blob/main/Imp
 
 Click [here](https://github.com/NanoFerreira/SWE_MainProject_Team1/blob/main/Data_Fields_And_ERD.md) to view our Entity Relationship Diagram, field descriptions, sample data, and database seed data.
 
-Click [here](docs/data_storage_plan.md) to view our Data Storage Plan, including how we use JSON and Python libraries to persist information.
+Click [here]([docs/data_storage_plan.md](https://github.com/NanoFerreira/SWE_MainProject_Team1/blob/main/data_storage_plan.md)) to view our Data Storage Plan, including how we use JSON and Python libraries to persist information.
 
 Click [here](docs/coding_style_guide.md) to view our Coding Style Guide, including naming rules, Git workflow, and Python formatting conventions.
 
