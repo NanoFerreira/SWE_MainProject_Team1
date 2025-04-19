@@ -57,7 +57,7 @@ You may go to the Video Presentations section of the document to find the presen
 
 ## Technical Design
 
-In this section, we outline how our vehicle marketplace application will be implemented. The documents below cover our technologies, system architecture, data design, and code standards. These resources are written for developers — including remote contributors — who need full insight into the system.
+In this section, we outline how our  marketplace  will be implemented. The documents below cover our technologies, system architecture, data design, and code standards.
 
 Click [here](https://github.com/NanoFerreira/SWE_MainProject_Team1/blob/main/Implementation%20Language%28s%29%20and%20Framework%28s%29.md) to view the Implementation Language(s) and Framework(s) we chose and why.
 
