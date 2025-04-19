@@ -4,7 +4,7 @@ This guide helps our team write clean, consistent, and easy-to-read code. All co
 
 ---
 
-##  Python Style
+## Python Style
 
 - Follow [PEP 8](https://peps.python.org/pep-0008/)
 - Use 4 spaces for indentation (not tabs)
@@ -25,7 +25,7 @@ This guide helps our team write clean, consistent, and easy-to-read code. All co
 
 ---
 
-## 🌐 Flask Structure
+## Flask Structure
 
 | Folder         | Purpose                          |
 |----------------|----------------------------------|
@@ -50,7 +50,7 @@ Use [Jinja2 syntax](https://jinja.palletsprojects.com/en/3.1.x/templates/) in al
 
 ---
 
-##  Git & Branching Rules
+## Git & Branching Rules
 
 - Use [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 
@@ -66,7 +66,6 @@ Use [Jinja2 syntax](https://jinja.palletsprojects.com/en/3.1.x/templates/) in al
 
 -  `add: user login route`
 -  `fix: price display bug`
--  `updated stuff`
 
 ### Pull Requests
 
@@ -76,7 +75,7 @@ Use [Jinja2 syntax](https://jinja.palletsprojects.com/en/3.1.x/templates/) in al
 
 ---
 
-## 🔗 Resources
+## Resources
 
 - [PEP 8 – Python Style Guide](https://peps.python.org/pep-0008/)
 - [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
