@@ -64,9 +64,9 @@ Use [Jinja2 syntax](https://jinja.palletsprojects.com/en/3.1.x/templates/) in al
 
 ### Commit Messages
 
-- ✅ `add: user login route`
-- ✅ `fix: price display bug`
-- ❌ `updated stuff`
+-  `add: user login route`
+-  `fix: price display bug`
+-  `updated stuff`
 
 ### Pull Requests
 
