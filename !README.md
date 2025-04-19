@@ -55,6 +55,22 @@ You may go to the Video Presentations section of the document to find the presen
 
 * Click [here](https://marvelapp.com/prototype/34176hi6) to explore the user interface of our application.
 
+* ## Technical Design
+
+In this section, we outline how our vehicle marketplace application will be implemented. The documents below cover our technologies, system architecture, database design, file structure, and more. These resources are written for developers who may join the project remotely and need full insight into the system.
+
+Click [here](docs/implementation_languages_frameworks.md) to view the Implementation Language(s) and Framework(s) we chose and why.
+
+Click [here](docs/Data_Fields_And_ERD.md) to view our Entity Relationship Diagram, field descriptions, and sample data for each entity.
+
+Click [here](docs/seed_data.md) to view our Database Seed Data used when the app launches for the first time.
+
+Click [here](docs/data_storage_plan.md) to view our Data Storage Plan, including how we use JSON and Python libraries to persist information.
+
+Click [here](docs/coding_style_guide.md) to view our Coding Style Guide, including naming rules, Git workflow, and Python formatting conventions.
+
+Click [here](videos/technical_design_presentation.mp4) to watch our 5-minute Technical Design Video Presentation, which explains key design decisions, risks, and system structure.
+
 
 
 
