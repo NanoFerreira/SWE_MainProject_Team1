@@ -59,7 +59,7 @@ You may go to the Video Presentations section of the document to find the presen
 
 In this section, we outline how our vehicle marketplace application will be implemented. The documents below cover our technologies, system architecture, database design, file structure, and more. These resources are written for developers who may join the project remotely and need full insight into the system.
 
-Click [here](docs/implementation_languages_frameworks.md) to view the Implementation Language(s) and Framework(s) we chose and why.
+Click [here](https://github.com/NanoFerreira/SWE_MainProject_Team1/blob/main/Implementation%20Language(s)%20and%20Framework(s).md) to view the Implementation Language(s) and Framework(s) we chose and why.
 
 Click [here](docs/Data_Fields_And_ERD.md) to view our Entity Relationship Diagram, field descriptions, and sample data for each entity.
 
