@@ -67,4 +67,4 @@ Click [here](docs/seed_data.md) to view our Database Seed Data used when the app
 
 Click [here](docs/data_storage_plan.md) to view our Data Storage Plan, including how we use JSON and Python libraries to persist information.
 
-Click [here](docs/coding_style_guide.md) to view our Coding Style Guide, including naming rules, Git workflow, and Python formatting conventions.
+Click [here]([docs/coding_style_guide.md](https://github.com/NanoFerreira/SWE_MainProject_Team1/blob/main/Coding%20style%20Guide.md)) to view our Coding Style Guide, including naming rules, Git workflow, and Python formatting conventions.
