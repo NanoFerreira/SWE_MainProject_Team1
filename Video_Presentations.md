@@ -6,3 +6,7 @@
 
 ### [UI Design Presentation](https://www.loom.com/share/89ee5ea150734d0e97ee7eb76776115c?sid=3479c783-6e31-4c57-bd88-73602ab56378)
 
+
+### [Technical Design](https://www.loom.com/share/89ee5ea150734d0e97ee7eb76776115c?sid=3479c783-6e31-4c57-bd88-73602ab56378](https://www.loom.com/share/acd6f2f6bbf84abda5d4f33d34490bae?sid=d855c10a-4120-4d83-a4a2-f8b12255dfae)
+
+
