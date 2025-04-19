@@ -1,10 +1,10 @@
-# 💾 Data Storage Plan – Team 1 Vehicle Marketplace
+#  Data Storage Plan 
 
 Our application uses **JSON files** for persistent data storage. This choice was made for its simplicity, readability, and tight integration with Python and Flask. This solution fits our small-scale project and development environment well.
 
 ---
 
-## 📂 Storage Format: JSON
+##  Storage Format: JSON
 
 We use `.json` files to store all application data such as users, inventory, and transactions. These files live in the `data/` folder and are updated any time a change is made through the application.
 
@@ -17,7 +17,7 @@ We use `.json` files to store all application data such as users, inventory, and
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 | Tool / Library     | Purpose                                   |
 |--------------------|-------------------------------------------|
@@ -28,7 +28,7 @@ We use `.json` files to store all application data such as users, inventory, and
 
 ---
 
-## 🔁 Data Flow: Step-by-Step
+## Data Flow: Step-by-Step
 
 1. **Application Startup**
    - JSON files are loaded into Python structures (lists/dictionaries)
@@ -44,7 +44,7 @@ We use `.json` files to store all application data such as users, inventory, and
 
 ---
 
-## 🔒 Persistence Best Practices
+##  Persistence Best Practices
 
 - Always use `with open(filename, 'w')` for saving JSON to avoid data corruption
 - Use `try/except` blocks when reading/writing to handle missing or malformed files
@@ -53,7 +53,7 @@ We use `.json` files to store all application data such as users, inventory, and
 
 ---
 
-## ✅ Why JSON?
+##  Why JSON?
 
 - Easy to read and edit manually
 - Zero setup required — ideal for small projects
@@ -62,7 +62,7 @@ We use `.json` files to store all application data such as users, inventory, and
 
 ---
 
-## ⚙️ Development Environment
+## Development Environment
 
 | Component           | Details                        |
 |---------------------|--------------------------------|
@@ -75,7 +75,7 @@ We use `.json` files to store all application data such as users, inventory, and
 
 ---
 
-## 💡 Example: Saving Updated Inventory
+## Example: Saving Updated Inventory
 
 ```python
 import json
