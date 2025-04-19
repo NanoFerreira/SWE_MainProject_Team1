@@ -1,6 +1,6 @@
 ## Implementation Language(s) and Framework(s)
 
-This section outlines the core languages and frameworks used to build our vehicle marketplace. Each technology was selected for its simplicity, flexibility, and strong documentation to ensure smooth development and onboarding for any developer.
+This section outlines the core languages and frameworks used to build our vehicle marketplace. Each technology was selected to ensure smooth development and onboarding for the implementation of our project.
 
 ---
 
