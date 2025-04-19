@@ -51,11 +51,11 @@ You may go to the Video Presentations section of the document to find the presen
 
 * Click [here](Decision_Table.md) for a Decision table detailing the thought process that goes behind each of the users and admins can perform.
 
-## User Interface Design
+# User Interface Design
 
 * Click [here](https://marvelapp.com/prototype/34176hi6) to explore the user interface of our application.
 
-## Technical Design
+# Technical Design
 
 In this section, we outline how our marketplace will be implemented. The documents below cover our technologies, system architecture, data design, and code standards.
 
