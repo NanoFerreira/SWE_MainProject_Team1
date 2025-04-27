@@ -1,0 +1,93 @@
+.Main_Body{
+    background-color: #343f4b;
+}
+
+/* header */
+.Header_Div{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.Logo_Div{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.Icons_Div{
+    background-color: #ddc432;
+    /* align-content: space-between; */
+    margin-right: 15%;
+    margin-top: 5%;
+    padding: .5%;
+    /* align-self: flex-end; */
+    vertical-align: middle;
+    align-content: center;
+    clear: both;
+}
+.Icon{
+    scale: 600%;
+    padding: 13%;
+    align-self: center;
+    vertical-align: middle;
+}
+
+/* body */
+
+.Main_Div{
+    background-color: #ddc432;
+    width: 92%;
+    height: 60%;
+    border-radius: 2px;
+    margin: auto;
+    float: left;
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: .5%
+}
+.Selector_Div{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.Intro_Div{
+    background-color: #343c4c;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-right: .5%;
+}
+p{
+    color: aliceblue;
+    font-size: 24px;
+}
+.Customizing_Div{
+    
+    /* padding: 1%; */
+    margin-left: .5%;
+}
+.Search_Div{
+    background-color: #343c4c;
+    padding: .01%;
+}
+.Filters_Div{
+    
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-block: 2%;
+    margin-right: 1%;
+}
+.Sort_Div{
+    display: flex;
+    background-color: #343c4c;
+    padding: 1%;
+    margin-right: 2%;
+    width: 98%
+}
+.Viewing_Div{
+    background-color: #343c4c;
+    padding: 1%;
+    width: 98%;
+    margin-left: 2%;
+}
+
+
+
