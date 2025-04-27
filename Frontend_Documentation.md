@@ -1,41 +1,49 @@
 ## Front‑End Integration & Team Assignments
 
-Below are required‑only screens mapped to backend endpoints, plus front‑end guidelines and a two‑person division of work that aligns with our JSON data model and naming conventions.
+Below are **required** screens (9 of the 17 total) mapped to backend endpoints — these must be delivered in Version 1. Optional/future screens are listed afterward.
 
-### 1. Endpoint & Template Mapping
-| Screen Name        | Template File       | Endpoint                         | Data Context Variable |
-|--------------------|---------------------|----------------------------------|-----------------------|
-| Main Inventory     | `inventory.html`    | `GET /`                          | `cars`                |
-| Search Results     | Same as Inventory   | `GET /?q=<term>`                 | `cars`                |
-| Cart View          | `cart.html`         | `GET /cart`                      | `items`               |
-| Add to Cart        | N/A (button action) | `POST /cart/add/<car_id>`        | N/A                   |
-| Checkout Form      | `checkout.html`     | `GET /checkout`                  | `items, subtotal, tax, shipping_options` |
-| Checkout Submit    | N/A (form action)   | `POST /checkout`                 | Form fields           |
-| Receipt View       | `receipt.html`      | `GET /receipt/<order_id>`        | `order, items`        |
-| Admin Orders       | `admin_orders.html` | `GET /admin/orders`              | `orders`              |
-| CSV Export         | N/A (button action) | `GET /admin/export`              | N/A                   |
+### Required Screens (9/17)
+| Screen Name        | Template File       | Endpoint                         | Notes                           |
+|--------------------|---------------------|----------------------------------|---------------------------------|
+| Main Inventory     | `inventory.html`    | `GET /`                          | shows available cars            |
+| Search Results     | Same as Inventory   | `GET /?q=<term>`                 | filters inventory by name/desc  |
+| Login              | `login.html`        | `GET/POST /login`                | auth form                       |
+| Register           | `register.html`     | `GET/POST /register`             | auth form                       |
+| Product Detail     | `inventory.html` or separate detail template| `GET /car/<id>` or modal | shows full car info + Add to Cart |
+| Cart View          | `cart.html`         | `GET /cart`                      | list items + remove            |
+| Checkout           | `checkout.html`     | `GET/POST /checkout`             | shipping & payment form        |
+| Receipt            | `receipt.html`      | `GET /receipt/<order_id>`        | final totals & last-4 card     |
+| Admin Orders/Report| `admin_orders.html` | `GET /admin/orders`              | list sales + export CSV        |
 
-### 2. Naming & Folder Conventions
-- **Templates**: store all Jinja files in `/templates` with snake_case names matching the table above.
-- **Static Assets**: images go in `/static/images`; reference via `url_for('static', filename='images/<name>')`.
-- **CSS/JS Files**: place under `/static/css` and `/static/js`, named `<screen>.css` or `<screen>.js`.
-- **Forms & Actions**: use RESTful URLs; form `action` attributes must exactly match the endpoints above.
-- **Variable Binding**: Jinja context variable names equal JSON property names (e.g. `car.name`, `item.price_cents`).
+### Optional/Future Screens (8/17)
+| Screen Name            | Reason                 |
+|------------------------|------------------------|
+| Profile Page (User)    | Not required V1        |
+| Add User / Promote UI  | Manual DB OK V1        |
+| Multi‑Image Gallery    | Nice‑to‑have           |
+| Advanced Search Filters| Nice‑to‑have           |
+| Order History (User)   | Nice‑to‑have           |
+| Discount Codes         | Nice‑to‑have           |
+| Shipping Tracking      | Nice‑to‑have           |
+| Email Integration      | Nice‑to‑have           |
 
-### 3. Team Division (2 Front‑End Developers)
 
-| Developer A                        | Developer B                         |
-|------------------------------------|-------------------------------------|
-| **User & Auth Flow**               | **Shopping Flow**                   |
-| - `login.html`, `register.html`    | - `inventory.html` & search         |
-| - Flash messages & error display   | - Add-to-cart buttons & UI states   |
-| - Profile page (optional bonus)    | - `cart.html`, remove-item links    |
-|                                    | - `checkout.html`, form validation  |
-| **Admin Screens**                  | **Receipt & Export**                |
-| - `admin_orders.html` listing      | - `receipt.html` styling            |
-| - Promote‑user UI (future)         | - CSV export button triggers        |
-| - Secure link logic (admin only)   |   download of `sales.csv`           |
+These 9 required screens cover the core user journey and admin features defined in the spec. The remaining 8 can be scheduled for later sprints.
 
-> **Note:** Both developers share responsibility for including the `_nav.html` partial at the top of each template for consistent navigation.
+## Updated Team Division (Version 1 Only)
+Assign the **9 required screens** evenly between two developers:
 
-These assignments cover all **required** features. Nice‑to‑haves (multiple pictures, SendGrid, history page) can be added after core delivery.
+| Developer A                        | Developer B                        |
+|------------------------------------|------------------------------------|
+| **Auth & Inventory**               | **Cart & Checkout**                |
+| - `login.html`, `register.html`    | - `cart.html`, remove-item UI      |
+| - `inventory.html` (incl. search)  | - `checkout.html`                  |
+| - Product Detail view (Add to Cart)| - `receipt.html`                   |
+|                                    |                                    |
+| **Admin Reporting**                | **(No additional tasks)**          |
+| - `admin_orders.html` listing      |                                    |
+| - CSV Export button                |                                    |
+
+> Both developers integrate the global `_nav.html` partial into their assigned screens for consistent navigation.
+
+This split gives each developer **5** and **4** required templates, respectively, ensuring balanced workload and rapid delivery of Version 1.
