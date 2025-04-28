@@ -7,23 +7,23 @@
   <title>Kennesaw Motorsports - Shopping Cart</title>
   <link rel="stylesheet" href="styles.css">
   <script>
-    // Cart data structure to hold items
+
     let cart = [];
 
-    // Function to add items to the cart
     function addToCart(productName, price) {
       const product = { name: productName, price: price };
       cart.push(product);
       updateCart();
     }
 
-    // Function to remove items from the cart
+
     function removeFromCart(index) {
       cart.splice(index, 1);
       updateCart();
     }
 
-    // Function to update cart display and total price
+
+    
     function updateCart() {
       const cartItemsDiv = document.getElementById("cartItems");
       cartItemsDiv.innerHTML = ''; // Clear the cart items section
@@ -39,17 +39,18 @@
         `;
       });
 
-      // Update total price
+    
       document.getElementById("cartTotal").innerText = `Total: $${totalPrice.toFixed(2)}`;
     }
 
-    // Function to handle checkout (optional)
+   
     function checkout() {
       if (cart.length === 0) {
         alert("Your cart is empty.");
       } else {
         alert("Proceeding to checkout...");
-        // You can add checkout logic here
+
+        
       }
     }
   </script>
