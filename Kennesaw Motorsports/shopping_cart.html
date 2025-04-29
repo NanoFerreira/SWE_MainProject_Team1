@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kennesaw Motorsports - Shopping Cart</title>
+  <link rel="stylesheet" href="styles_juan.css">
+  <script>
+
+    let cart = [];
+
+    function addToCart(productName, price) {
+      const product = { name: productName, price: price };
+      cart.push(product);
+      updateCart();
+    }
+
+
+    function removeFromCart(index) {
+      cart.splice(index, 1);
+      updateCart();
+    }
+
+
+    
+    function updateCart() {
+      const cartItemsDiv = document.getElementById("cartItems");
+      cartItemsDiv.innerHTML = ''; // Clear the cart items section
+
+      let totalPrice = 0;
+      cart.forEach((item, index) => {
+        totalPrice += item.price;
+        cartItemsDiv.innerHTML += `
+          <div class="Cart_Item">
+            <p>${item.name} - $${item.price.toFixed(2)}</p>
+            <button class="Product_Button" onclick="removeFromCart(${index})">Remove</button>
+          </div>
+        `;
+      });
+
+    
+      document.getElementById("cartTotal").innerText = `Total: $${totalPrice.toFixed(2)}`;
+    }
+
+   
+    function checkout() {
+      if (cart.length === 0) {
+        alert("Your cart is empty.");
+      } else {
+        alert("Proceeding to checkout...");
+
+        
+      }
+    }
+  </script>
+</head>
+<body class="Main_Body">
+  <!-- Header -->
+  <div class="Header_Div">
+    <div class="Logo_Div">
+      <img class="Logo" src="./images/Logo.png" alt="Main Logo" width="25%">
+    </div>
+    <div class="Icons_Div">
+      <img class="Icon" src="./images/Home_Icon.png" alt="Home Icon" width="5%" onclick="location.href='index.html'">
+      <img class="Icon" src="./images/Shop_Icon.png" alt="Shop Icon" width="5%" onclick="location.href='shop.html'">
+      <img class="Icon" src="./images/Account_Icon.png" alt="Account Icon" width="5%" onclick="location.href='account.html'">
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="Main_Cart_Div">
+    <h2>Your Shopping Cart</h2>
+    <div class="Cart_Section">
+      <!-- Cart Items -->
+      <div id="cartItems" class="Cart_Items_List">
+        <!-- Items will be dynamically added here -->
+      </div>
+
+      <!-- Cart Total -->
+      <div id="cartTotal" class="Cart_Total">
+        Total: $0.00
+      </div>
+
+      <!-- Checkout Button -->
+      <div class="Checkout_Div">
+        <button class="Checkout_Button" onclick="checkout()">Checkout</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Example Product Section -->
+  <div class="Product_Section">
+    <h2>Product List</h2>
+    <div class="Product_Item">
+      <img src="images/Hyundai.png" alt="Car Image" width="200px">
+      <p>2021 Hyundai Sonata</p>
+      <button class="Product_Button" onclick="addToCart('2021 Hyundai Sonata', 25000)">Add to Cart</button>
+    </div>
+    <div class="Product_Item">
+      <img src="images/Toyota.png" alt="Car Image" width="200px">
+      <p>2020 Toyota Camry</p>
+      <button class="Product_Button" onclick="addToCart('2020 Toyota Camry', 23000)">Add to Cart</button>
+    </div>
+  </div>
+</body>
+</html>
