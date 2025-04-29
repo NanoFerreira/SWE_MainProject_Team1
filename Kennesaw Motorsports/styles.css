@@ -14,20 +14,19 @@
 }
 .Icons_Div{
     background-color: #ddc432;
-    /* align-content: space-between; */
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 2%;
+    vertical-align: bottom; 
+    margin: auto;
     margin-right: 15%;
-    margin-top: 5%;
-    padding: .5%;
-    /* align-self: flex-end; */
-    vertical-align: middle;
-    align-content: center;
-    clear: both;
+    margin-bottom: 0%;
 }
 .Icon{
-    scale: 600%;
-    padding: 13%;
+    min-width: 70%;
+    min-height: 70%;
     align-self: center;
-    vertical-align: middle;
+    vertical-align: bottom;
 }
 
 /* body */
@@ -176,6 +175,10 @@ p{
     width: 31%;
     height: 10%;
 }
+.Checkout_Button:hover {
+    background-color: #2c3540;
+}
+
 .Login_Input{
     background-color: #343c4c;
     color: #FFFFFF;
@@ -281,7 +284,6 @@ p{
     color: #FFFFFF;
 
 }
-
 
 h1{
     color: #FFFFFF; 

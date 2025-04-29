@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<head>
+    <title>Kennesaw Motorsports</title>
+    <link rel="stylesheet" href="styles.css">
+    
+
+</head>
+
+
+<body class = "Main_Body">
+    <script src="script.js"></script>
+        <div class="Header_Div">
+            <div class="Logo_Div">
+                <img class="Logo" src="./images/Logo.png" alt="Main Logo" width="25%" onclick="window.location = 'index.html'"">
+            </div>
+
+            <div class ="Icons_Div">
+                <div>
+                    <img class="Icon" src="./images/Home_Icon.png" alt="Home Icon" width="5%" onclick="Go_Home()">
+                </div>
+                <div>
+                    <img class="Icon" src="./images/Shop_Icon.png" alt="Shop Icon" width="5%" onclick="Go_Shopping_Cart()">
+                </div>
+                <div>
+                    <img class="Icon" src="./images/Account_Icon.png" alt="Account Icon" width="5%" onclick="Check_Account(2)">
+                </div>
+                
+            </div>
+        </div>
+
+    <div class="Main_Account_Div">
+        <div class="Account_Buttons_Div">
+            <button class="Account_Button" onclick="Account_Button('Your_Account_Div')">Your Account</button>
+            <p></p>
+            <button class="Account_Button"onclick="Account_Button('Current_Orders_Div')">Current Orders</button>
+            <p></p>
+            <button class="Account_Button" onclick="Account_Button('Trade/Sell_Div')">Trade/Sell</button>
+            <p></p>
+            <button class="Account_Button " onclick="Account_Button('Contact_Us_Div')">Contact Us</button>
+            <p></p>
+
+
+            <button class="Account_Button"  style="display: none;" onclick="Account_Button('Sales_report_Div')">Sales Report</button>
+            <p></p>
+            <button class="Account_Button " style="display: none;" onclick="Account_Button('Add_Inventory_Div')">Add Inventory</button>
+            <p></p>
+            <button class="Account_Button" style="display: none;" onclick="Account_Button('Promote_User_Div')">Promote User</button>
+
+        </div>
+        <div class="Account_Info_Div" id="Your_Account_Div">
+            <div class="Account_Info_Title_Div">
+                <h1>Your Account</h1>
+            </div>
+            
+
+            <ul>
+                <p>Profile Name</p>
+                <li class="Account_List">NanoBanano</li>
+                <p>Profile e-mail</p>
+                <li class="Account_List">nanoferreirag@gmail.com</li>
+                <p>Profile Number</p>
+                <li class="Account_List">(404)500-4404</li>
+                <p>Profile Status</p>
+                <li class="Account_List">User</li>
+            </ul>
+
+        </div>
+        <div class="Account_Info_Div"id="Current_Orders_Div" style="display: none;">
+            <div class="Account_Info_Title_Div">
+                <h1>Current Orders</h1>
+            </div>
+        </div>
+        <div class="Account_Info_Div"id="Trade/Sell_Div" style="display: none;">
+            <div class="Account_Info_Title_Div">
+                <h1>Trade/Sell<h1>
+            </div>
+        </div>
+        <div class="Account_Info_Div"id="Contact_Us_Div" style="display: none;">
+            <div class="Account_Info_Title_Div">
+                <h1>Contact Us<h1>
+            </div>
+        </div>
+
+
+        
+        <div class="Account_Info_Div"id="Sales_Report_Div"style="display: none;">
+            <div class="Account_Info_Title_Div">
+                <h1>Sales Report<h1>
+            </div>
+        </div>
+        <div class="Account_Info_Div"id="Add_Inventory_Div" style="display: none;">
+            <div class="Account_Info_Title_Div">
+                <h1>Add Inventory<h1>
+            </div>
+        </div>
+        <div class="Account_Info_Div"id="Promote_User_Div" style="display: none;">
+            <div class="Account_Info_Title_Div">
+                <h1>Promote User<h1>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>    
