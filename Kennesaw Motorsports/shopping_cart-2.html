@@ -1,62 +1,57 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kennesaw Motorsports - Shopping Cart</title>
   <link rel="stylesheet" href="styles.css">
   <script>
-
     let cart = [];
 
-    function addToCart(productName, price) {
-      const product = { name: productName, price: price };
-      cart.push(product);
+    function addToCart(name, price) {
+      cart.push({name, price});
       updateCart();
     }
-
 
     function removeFromCart(index) {
       cart.splice(index, 1);
       updateCart();
     }
 
-
-    
     function updateCart() {
-      const cartItemsDiv = document.getElementById("cartItems");
-      cartItemsDiv.innerHTML = ''; // Clear the cart items section
+      const cartDiv = document.getElementById('cartItems');
+      const totalDiv = document.getElementById('cartTotal');
+      cartDiv.innerHTML = '';
+      let total = 0;
 
-      let totalPrice = 0;
       cart.forEach((item, index) => {
-        totalPrice += item.price;
-        cartItemsDiv.innerHTML += `
-          <div class="Cart_Item">
-            <p>${item.name} - $${item.price.toFixed(2)}</p>
-            <button class="Product_Button" onclick="removeFromCart(${index})">Remove</button>
+        total += item.price;
+        cartDiv.innerHTML += `
+          <div class="Car_Div">
+            <div class="Car_Name_Div">
+              <p>${item.name}</p>
+            </div>
+            <div class="Car_Author_Div">
+              <p id="AuthorTxT">$${item.price.toFixed(2)}</p>
+              <button class="Product_Button" onclick="removeFromCart(${index})" style="margin-left: auto;">Remove</button>
+            </div>
           </div>
         `;
       });
 
-    
-      document.getElementById("cartTotal").innerText = `Total: $${totalPrice.toFixed(2)}`;
+      totalDiv.innerHTML = `<h1>Total: $${total.toFixed(2)}</h1>`;
     }
 
-   
     function checkout() {
       if (cart.length === 0) {
         alert("Your cart is empty.");
       } else {
         alert("Proceeding to checkout...");
-
-        
       }
     }
   </script>
 </head>
+
 <body class="Main_Body">
-  <!-- Header -->
   <div class="Header_Div">
     <div class="Logo_Div">
       <img class="Logo" src="./images/Logo.png" alt="Main Logo" width="25%">
@@ -68,40 +63,64 @@
     </div>
   </div>
 
-  <!-- Main Content -->
-  <div class="Main_Cart_Div">
-    <h2>Your Shopping Cart</h2>
-    <div class="Cart_Section">
-      <!-- Cart Items -->
-      <div id="cartItems" class="Cart_Items_List">
-        <!-- Items will be dynamically added here -->
-      </div>
+  <!-- Shopping Cart Section -->
+  <div class="Cool_Margin_Div" id="Product_Margin">
+    <div class="Border_Div">
+      <div class="Product_Div">
+        <div class="Intro_Div">
+          <h1>Your Shopping Cart</h1>
+        </div>
 
-      <!-- Cart Total -->
-      <div id="cartTotal" class="Cart_Total">
-        Total: $0.00
-      </div>
+        <div class="Content_Div" id="cartItems" style="padding: 2%;">
+          <!-- Cart items will appear here -->
+        </div>
 
-      <!-- Checkout Button -->
-      <div class="Checkout_Div">
-        <button class="Checkout_Button" onclick="checkout()">Checkout</button>
+        <div class="Sort_Div" id="cartTotal" style="margin-top: 2%;">
+          <h1>Total: $0.00</h1>
+        </div>
+
+        <div class="Viewing_Div" style="text-align: center; margin-top: 2%;">
+          <button class="Product_Button" onclick="checkout()">Proceed to Checkout</button>
+        </div>
       </div>
     </div>
   </div>
 
-  <!-- Example Product Section -->
-  <div class="Product_Section">
-    <h2>Product List</h2>
-    <div class="Product_Item">
-      <img src="images/Hyundai.png" alt="Car Image" width="200px">
-      <p>2021 Hyundai Sonata</p>
-      <button class="Product_Button" onclick="addToCart('2021 Hyundai Sonata', 25000)">Add to Cart</button>
-    </div>
-    <div class="Product_Item">
-      <img src="images/Toyota.png" alt="Car Image" width="200px">
-      <p>2020 Toyota Camry</p>
-      <button class="Product_Button" onclick="addToCart('2020 Toyota Camry', 23000)">Add to Cart</button>
+  <!-- Example Product to Add -->
+  <div class="Cool_Margin_Div" id="Product_Margin" style="margin-top: 3%;">
+    <div class="Border_Div">
+      <div class="Product_Div">
+        <div class="Product_Interaction_Div">
+          <div class="Product_Images_Div">
+            <img src="images/Hyundai.png" alt="Hyundai Sonata" width="80%">
+          </div>
+          <div class="Product_Buttons_Div">
+            <button class="Product_Button" onclick="addToCart('2021 Hyundai Sonata', 25000)">Add To Cart</button>
+            <button class="Product_Button" onclick="location.href='shop.html'">Return</button>
+          </div>
+        </div>
+
+        <div class="Product_Content_Div">
+          <div class="Product_Name_Div">
+            <h1>2021 Hyundai Sonata</h1>
+          </div>
+          <div class="Product_Info_Div">
+            <ul class="Product_Info_List">
+              <li>Price: $25,000</li>
+              <li>Mileage: 15,000 miles</li>
+              <li>VIN: 123ABC456</li>
+              <li>Engine Type: V6</li>
+              <li>Transmission: Automatic</li>
+              <li>Fuel Type: Gasoline</li>
+              <li>Exterior Color: Blue</li>
+              <li>Interior Color: Black</li>
+              <li>Condition: Used</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+
 </body>
 </html>
