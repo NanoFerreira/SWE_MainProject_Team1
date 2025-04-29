@@ -1,0 +1,150 @@
+
+/* Aaron's Custom Stylesheet for Cart, Receipt, and Order History */
+
+/* General Body Style */
+.Main_Body {
+  background-color: #2b2f3a;
+  color: #f0f0f0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.Header_Div {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #1f2230;
+}
+
+.Logo_Div img {
+  width: 20%;
+}
+
+.Icons_Div {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.Icon {
+  cursor: pointer;
+  width: 5%;
+}
+
+/* Cart Section */
+.Cart_Section {
+  margin: 30px auto;
+  width: 90%;
+  max-width: 1000px;
+  background-color: #393d4a;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.Cart_Items_List {
+  margin-top: 20px;
+}
+
+.Cart_Item {
+  background-color: #4a4f5c;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Product_Button {
+  background-color: #ffc107;
+  color: #2b2f3a;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.Product_Button:hover {
+  background-color: #e0a800;
+}
+
+/* Cart Total */
+.Cart_Total {
+  font-size: 22px;
+  text-align: right;
+  margin-top: 20px;
+}
+
+/* Checkout Button */
+.Checkout_Button {
+  background-color: #28a745;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+}
+
+.Checkout_Button:hover {
+  background-color: #218838;
+}
+
+/* Receipt Section */
+.Receipt_Section {
+  margin: 30px auto;
+  width: 90%;
+  max-width: 800px;
+  background-color: #393d4a;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.Receipt_Header {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ffc107;
+}
+
+.Receipt_Item {
+  border-bottom: 1px solid #555;
+  padding: 10px 0;
+}
+
+.Receipt_Total {
+  font-size: 20px;
+  margin-top: 15px;
+  text-align: right;
+}
+
+/* Order History Section */
+.Order_History {
+  margin: 30px auto;
+  width: 90%;
+  max-width: 1000px;
+  background-color: #393d4a;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.Order_History_Header {
+  font-size: 24px;
+  color: #ffc107;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.Order_History_Item {
+  background-color: #4a4f5c;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}

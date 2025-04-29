@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel — Kennesaw Motorsports</title>
+
+    <!-- reuse your main stylesheet so colours/fonts stay consistent -->
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/styles.css') }}">
+    <!-- page-only tweaks -->
+    <style>
+        .admin-card   { max-width:600px; margin:4rem auto;
+                        background:#ddc432; padding:2rem;
+                        border:4px solid #343c4c; }
+        .admin-card h2{ margin-top:0; color:#343c4c; }
+        label         { display:block; margin:.75rem 0 .25rem;
+                        color:#343c4c; font-weight:600; }
+        input         { width:100%; padding:.4rem; }
+        .btn          { background:#343c4c; color:#fff;
+                        border:none; padding:.5rem 1.2rem;
+                        cursor:pointer; margin-top:1rem; }
+        .flash        { color:#e33; margin:1rem 0; }
+        .receipt-box  { background:#fff; padding:1rem;
+                        margin-top:1.5rem; }
+    </style>
+</head>
+<body class="Main_Body">
+
+{% include "_nav.html" %}
+
+<div class="admin-card">
+
+    {% with msgs = get_flashed_messages() %}
+    {% if msgs %}
+    {% for m in msgs %}
+    <div class="flash">{{ m }}</div>
+    {% endfor %}
+    {% endif %}
+    {% endwith %}
+
+    <!-- ───────── Promote user ───────── -->
+    <h2>Promote User → Admin</h2>
+    <form action="{{ url_for('admin_promote') }}" method="post">
+        <label>Username</label>
+        <input name="username" required>
+        <button class="btn">Promote</button>
+    </form>
+
+    <hr>
+
+    <!-- ───────── View a receipt ───────── -->
+    <h2>Lookup Receipt by Order ID</h2>
+    <form action="{{ url_for('admin_panel') }}" method="get">
+        <label>Order ID</label>
+        <input name="order_id" required>
+        <button class="btn">Show</button>
+    </form>
+
+    {% if order and items %}
+    <div class="receipt-box">
+        <h3>Order #{{ order.id }}</h3>
+        <p><strong>Total:</strong> ${{ "%.2f"|format(order.total_cents/100) }}</p>
+        <ul>
+            {% for it in items %}
+            <li>{{ it.name }} — ${{ "%.2f"|format(it.price_at_purchase_cents/100) }}</li>
+            {% endfor %}
+        </ul>
+        <p><em>Placed {{ order.created_at.split("T")[0] }}</em></p>
+    </div>
+    {% endif %}
+
+    <hr>
+
+    <!-- ───────── CSV download that already exists ───────── -->
+    <p><a class="btn" href="{{ url_for('export_csv') }}">Export Sales CSV</a></p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "username": "admin",
+    "password": "pbkdf2:sha256:1000000$xWwxxVK8NAc75gML$c502831a091e2343852d1953d941fd88afaefc1979421edc0a8c24a8fae56248",
+    "email": "admin@example.com",
+    "is_admin": true,
+    "created_at": "2025-04-24T23:33:29.407302"
+  },
+  {
+    "id": 2,
+    "username": "bryan",
+    "password": "pbkdf2:sha256:1000000$cvT2EcAqhR9hMVQ2$05e6f576fc2f12d3496fdfe21916cf7114b1fdb45aba00a0072d034a9fa4ded1",
+    "email": "bryan@email.com",
+    "is_admin": true,
+    "created_at": "2025-04-29T01:27:28.607276"
+  }
+]

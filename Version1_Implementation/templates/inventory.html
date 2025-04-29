@@ -1,0 +1,64 @@
+{# templates/inventory.html #}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kennesaw Motorsports</title>
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body class="Main_Body">
+
+{# compact header / icons — lives only here #}
+{% include "_nav.html" %}
+
+<!-- ───────── Yellow card that fills the page ───────── -->
+<main class="Main_Div">
+
+    <!-- left intro, right search / sort -->
+    <section class="Selector_Div">
+
+        <div class="Intro_Div">
+            <p id="Intro_Txt">
+                At Kennesaw Motorsports, we're proud to serve drivers across Georgia …
+            </p>
+        </div>
+
+        <div class="Customizing_Div">
+
+
+
+
+            <div class="Filters_Div">
+                <div class="Sort_Div"><p>Sort&nbsp;By:&nbsp;<b>Price</b></p></div>
+
+                <div class="Viewing_Div"><p>Currently Viewing:</p></div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- two-column grid of cars -->
+    <section class="Content_Div">
+        {%  for car in cars %}
+        <a class="car-link"
+           href="{{ url_for('car_detail', car_id=car.id) }}">
+            <div class="Car_Div">
+                <div class="Car_Name_Div"><p>{{ car.name }}</p></div>
+
+                <div class="Car_Img_Div">
+                    <div class="Car_Author_Div">
+                        <p id="AuthorTxT">{{ car.dealer }}</p>
+                    </div>
+                    <img src="{{ url_for('static', filename='images/' ~ car.image_url) }}"
+                         alt="{{ car.name }}">
+                </div>
+            </div>
+        </a>
+        {%  endfor %}
+
+    </section>
+
+</main>
+</body>
+</html>

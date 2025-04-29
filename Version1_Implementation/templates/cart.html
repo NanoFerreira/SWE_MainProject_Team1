@@ -1,0 +1,92 @@
+{# templates/cart.html #}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Your Cart – Kennesaw Motorsports</title>
+
+  <!-- reuse the global stylesheet that already has your colours & fonts -->
+  <link rel="stylesheet"
+        href="{{ url_for('static', filename='css/styles.css') }}"/>
+
+  <!-- page-specific tweaks -->
+  <style>
+    .cart-wrapper     { max-width:1100px; margin:3rem auto; }
+    .cart-card        {
+        border:4px solid #ddc432; background:#ddc432;
+        padding:2rem 3rem;
+    }
+    .cart-title       { text-align:center; margin-bottom:2.5rem;
+                        font-family:serif; font-size:2.75rem; color:#fff; }
+    table.cart-table  { width:100%; border-collapse:collapse; }
+    table.cart-table th,
+    table.cart-table td  { padding:.55rem .6rem; font-family:serif; color:#fff; }
+    table.cart-table th { font-size:1.15rem; border-bottom:2px solid #fff; }
+    td.price          { text-align:right; width:160px; }
+    form.rm-btn       { margin:0; }
+    .btn              {
+        background:#343c4c; color:#fff; border:2px solid #fff;
+        font-family:serif; padding:.4rem .9rem; cursor:pointer;
+    }
+    .btn.small        { font-size:.85rem; }
+    .totals           { margin-top:2rem; font-family:serif; font-size:1.1rem; }
+    .totals p         { margin:.35rem 0; color:#fff; }
+    .totals .grand    { font-size:1.25rem; font-weight:bold; }
+    .checkout-btn     { display:block; margin:2.5rem auto 0; width:180px; }
+  </style>
+</head>
+<body class="Main_Body">
+
+{% include "_nav.html" %}
+
+<div class="cart-wrapper">
+  <div class="cart-card">
+
+    <h1 class="cart-title">Shopping Cart</h1>
+
+    {% if cart_items %}
+    <table class="cart-table">
+      <thead>
+      <tr><th>Car</th><th class="price">Price</th><th></th></tr>
+      </thead>
+      <tbody>
+      {% for item in cart_items %}
+      <tr>
+        <td>{{ item.name }}</td>
+        <td class="price">
+          ${{ "%.2f"|format(item.price_cents/100) }}
+        </td>
+        <td style="text-align:center;">
+          <form class="rm-btn"
+                action="{{ url_for('remove_from_cart', item_id=item.id) }}"
+                method="post">
+            <button class="btn small">Remove From Cart</button>
+          </form>
+        </td>
+      </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+
+    <div class="totals">
+      <p>Subtotal:&nbsp; <strong>${{ "%.2f"|format(subtotal_cents/100) }}</strong></p>
+      <p>Tax (6 %):&nbsp;&nbsp; ${{ "%.2f"|format(tax_cents/100) }}</p>
+      <p class="grand">Total:&nbsp; ${{ "%.2f"|format(total_cents/100) }}</p>
+    </div>
+
+    <form action="{{ url_for('checkout') }}" method="get">
+      <button class="btn checkout-btn">Submit Order</button>
+    </form>
+
+    {% else %}
+    <p style="text-align:center; font-family:serif; font-size:1.2rem; color:#fff;">
+      Your cart is empty.
+    </p>
+    {% endif %}
+
+  </div>
+</div>
+
+</body>
+</html>
+

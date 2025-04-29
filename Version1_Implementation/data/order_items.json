@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "order_id": 1,
+    "car_id": 1,
+    "price_at_purchase_cents": 2200000
+  },
+  {
+    "id": 2,
+    "order_id": 1,
+    "car_id": 1,
+    "price_at_purchase_cents": 2200000
+  },
+  {
+    "id": 3,
+    "order_id": 2,
+    "car_id": 1,
+    "price_at_purchase_cents": 2200000
+  },
+  {
+    "id": 4,
+    "order_id": 3,
+    "car_id": 2,
+    "price_at_purchase_cents": 1500000
+  },
+  {
+    "id": 5,
+    "order_id": 3,
+    "car_id": 3,
+    "price_at_purchase_cents": 1100000
+  },
+  {
+    "id": 6,
+    "order_id": 4,
+    "car_id": 1,
+    "price_at_purchase_cents": 2200000
+  },
+  {
+    "id": 7,
+    "order_id": 5,
+    "car_id": 2,
+    "price_at_purchase_cents": 1500000
+  },
+  {
+    "id": 8,
+    "order_id": 6,
+    "car_id": 3,
+    "price_at_purchase_cents": 1100000
+  },
+  {
+    "id": 9,
+    "order_id": 7,
+    "car_id": 2,
+    "price_at_purchase_cents": 1500000
+  },
+  {
+    "id": 10,
+    "order_id": 8,
+    "car_id": 2,
+    "price_at_purchase_cents": 1500000
+  },
+  {
+    "id": 11,
+    "order_id": 9,
+    "car_id": 3,
+    "price_at_purchase_cents": 1100000
+  }
+]

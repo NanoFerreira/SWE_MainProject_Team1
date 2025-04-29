@@ -1,0 +1,79 @@
+{#  templates/checkout.html  #}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Checkout | Kennesaw Motorsports</title>
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body class="Main_Body">
+
+{% include "_nav.html" %}
+
+<div class="Checkout_Card">
+
+    <!-- ───────────────── left column – payment / shipping form ───────────────── -->
+    <form class="Pay_Form" method="post">
+
+        <label> Name
+            <input name="name"               class="Chk_Input" required>
+        </label>
+
+        <label> Card Number
+            <input name="card_number"        class="Chk_Input" required>
+        </label>
+
+        <label class="Half"> Exp&nbsp;MM
+            <input name="exp_month" size="2" class="Chk_Input" required>
+        </label>
+        <label class="Half"> YY
+            <input name="exp_year"  size="2" class="Chk_Input" required>
+        </label>
+
+        <label> CVV
+            <input name="cvv" size="4"       class="Chk_Input" required>
+        </label>
+
+        <label> Address
+            <input name="shipping_address"   class="Chk_Input" required>
+        </label>
+
+        <label class="Half"> Phone
+            <input name="phone_number"       class="Chk_Input" required>
+        </label>
+
+        <label class="Half"> Shipping
+            <select name="shipping_speed"    class="Chk_Input">
+                {% for k,v in shipping_options.items() %}
+                <option value="{{ k }}">{{ k }} – ${{ v }}</option>
+                {% endfor %}
+            </select>
+        </label>
+
+        <button class="Chk_Submit">Submit Order</button>
+    </form>
+
+
+    <!-- ───────────────── right column – order summary ───────────────── -->
+    <div class="Summary">
+        <h2>Order:</h2>
+        {% for i in items %}
+        <div class="Line">
+            <span>{{ i.name }}</span>
+            <span>${{ '{:,.0f}'.format(i.price_cents/100) }}</span>
+        </div>
+        {% endfor %}
+
+        <div class="Totals">
+            <div><span>Subtotal:</span><span>${{ '{:,.0f}'.format(subtotal/100) }}</span></div>
+            <div><span>Tax&nbsp;(6&thinsp;%):</span><span>${{ '{:,.0f}'.format(tax/100) }}</span></div>
+            <div class="Grand"><span>Total:</span><span>${{ '{:,.0f}'.format((subtotal+tax)/100) }}</span></div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
+
