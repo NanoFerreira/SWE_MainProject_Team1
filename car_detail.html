@@ -1,0 +1,106 @@
+{# templates/car_detail.html #}
+
+<html lang="en">
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{ car.name }} | Kennesaw Motorsports</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <style>
+        /* ―― Palette & Layout ―― */
+        body { background: #29323c; color: #fff; margin:0; font-family:sans-serif }
+        .nav-placeholder { margin-bottom:1rem } /* assuming you include _nav.html above */
+
+        .card-yellow {
+          background: #f1c40f;
+          border: 4px solid #29323c;
+          border-radius: 1rem;
+          max-width: 960px;
+          margin: auto;
+          overflow: hidden;
+        }
+        .inner-grey {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 1rem;
+          background: #29323c;
+          padding: 1.5rem;
+        }
+
+        .grey-box {
+          background: #29323c;
+          border: 2px solid #f1c40f;
+          border-radius: .75rem;
+          padding: 1rem;
+        }
+        .grey-box h1 {
+          margin-top:0;
+        }
+        .grey-box img {
+          width: 100%;
+          border-radius: .5rem;
+          display: block;
+        }
+
+        .actions {
+          display: flex;
+          justify-content: space-between;
+          padding: 1rem;
+          background: #29323c;
+        }
+        .btn {
+          background: #29323c;
+          color: #fff;
+          padding: .75rem 1.5rem;
+          font-size: 1rem;
+          font-weight: 600;
+          border: 2px solid #f1c40f;
+          border-radius: .5rem;
+          text-decoration: none;
+        }
+        .btn:hover {
+          background: #1f2630;
+        }
+    </style>
+</head>
+<body>
+{% include "_nav.html" %}
+
+<div class="card-yellow">
+    <div class="inner-grey">
+        <!-- Left: big image in its own grey container -->
+        <div class="grey-box">
+            <img
+                    src="{{ url_for('static', filename='images/' ~ car.image_url) }}"
+                    alt="{{ car.name }}"
+            >
+        </div>
+
+        <!-- Right: text details in its own grey container -->
+        <div class="grey-box">
+            <h1>{{ car.name }}</h1>
+            <ul style="list-style:disc inside; margin:0; padding:0;">
+                <li><strong>Price:</strong> ${{ '%.2f' % (car.price_cents/100) }}</li>
+                <li><strong>Mileage:</strong> {{ "{:,}".format(car.mileage) }} miles</li>
+                <li><strong>VIN:</strong> {{ car.vin }}</li>
+                <li><strong>Engine Type:</strong> {{ car.engine_type }}</li>
+                <li><strong>Transmission:</strong> {{ car.transmission }}</li>
+                <li><strong>Drivetrain:</strong> {{ car.drivetrain }}</li>
+                <li><strong>Fuel Type:</strong> {{ car.fuel_type }}</li>
+                <li><strong>Exterior Color:</strong> {{ car.exterior_color }}</li>
+                <li><strong>Interior Color:</strong> {{ car.interior_color }}</li>
+                <li><strong>Condition:</strong> {{ car.condition }}</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Buttons bar under the two grey panels -->
+    <div class="actions">
+        <form action="{{ url_for('add_to_cart', car_id=car.id) }}" method="post">
+            <button type="submit" class="btn">Add to Cart</button>
+        </form>
+        <a href="{{ url_for('index') }}" class="btn">Return</a>
+    </div>
+</div>
+</body>
+</html>

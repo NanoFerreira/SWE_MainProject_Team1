@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register — Kennesaw Motorsports</title>
+    <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='css/styles.css') }}"
+    >
+</head>
+<body>
+{% include "_nav.html" %}
+
+<div class="Main_Body">
+    <div class="Login_Div">
+        <div class="Logo_Div">
+            <img
+                    class="Logo"
+                    src="{{ url_for('static', filename='images/Logo.png') }}"
+                    alt="Kennesaw Motorsports Logo"
+            >
+        </div>
+
+        <div class="Cool_Margin_Div">
+            <div class="Form_Div">
+                <h2 class="Sign_In_Title">Register</h2>
+                <form
+                        method="post"
+                        action="{{ url_for('register') }}"
+                >
+                    <input
+                            name="username"
+                            type="text"
+                            class="Login_Input"
+                            placeholder="Username"
+                            required
+                    >
+                    <input
+                            name="email"
+                            type="email"
+                            class="Login_Input"
+                            placeholder="e-mail"
+                            required
+                    >
+                    <input
+                            name="password"
+                            type="password"
+                            class="Login_Input"
+                            placeholder="Password"
+                            required
+                    >
+                    <input
+                            name="confirm"
+                            type="password"
+                            class="Login_Input"
+                            placeholder="Confirm Password"
+                            required
+                    >
+
+                    <button
+                            type="submit"
+                            class="Login_Button"
+                    >Register</button>
+                </form>
+
+                <p class="Form_Footer">
+                    <a href="{{ url_for('login') }}">
+                        Already have an account?
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

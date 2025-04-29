@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "username": "admin",
+    "password": "scrypt:32768:8:1$yz10eMRGeLNFU63C$dea282fedb7e3cc729a8c810351065a2a98a71a334ee495d6b53ace2463d71a85593881b2a6d33aa6ad642345ec4bc3c3b51c943c690d49c90c5f996c67309b0",
+    "email": "admin@example.com",
+    "is_admin": true,
+    "created_at": "2025-04-24T23:33:29.407302"
+  },
+  {
+    "id": 2,
+    "username": "johndoe",
+    "password": "scrypt:32768:8:1$kxRw1k6c9Yee4vzB$32930f6664055deb500fcc2b5f6caf8bbec9042482f014f80186820733b67c18476a382c392873850c3812fab48a5749950e0de7bc565c0678f02f60ae64f9b2",
+    "email": "johndoe@example.com",
+    "is_admin": false,
+    "created_at": "2025-04-24T23:33:29.407302"
+  },
+  {
+    "id": 3,
+    "username": "johnny",
+    "password": "scrypt:32768:8:1$mdjsl5BEveNtkrkI$95dba6c54f19fbb67aebb247f07764aa718a7a733252069f2941e6c119bc83351626655bc3ac7a5576179c9b94654220245c7b60e6f3f3421d65d4e37656b3b8",
+    "email": "johnny@gmail.com",
+    "is_admin": false,
+    "created_at": "2025-04-24T23:44:44.238348"
+  },
+  {
+    "id": 4,
+    "username": "bill",
+    "password": "scrypt:32768:8:1$ZWRAB8MLkTB6jNOL$8058bc7e30940d04d353b2d0bff980ed7530eecf9076bd0a6e2e1f6702578e0e2eb02c8f887b01c7cc9a14c721855a03ac86d6bb1550662dad04e90cf485068f",
+    "email": "bill@stuff.com",
+    "is_admin": false,
+    "created_at": "2025-04-27T18:49:52.986017"
+  },
+  {
+    "id": 5,
+    "username": "testuser",
+    "password": "scrypt:32768:8:1$5cRwJAuVVAhZWBE5$ac958a00eee980de948c5821b5a79d8cdcd7cc2a8d81a9011792195a913fadb3ef28dc43900507d9333dc6277fc20e7f845e819faa45566d0c112cbe4a2133d8",
+    "email": "test@example.com",
+    "is_admin": false,
+    "created_at": "2025-04-27T19:01:22.141981"
+  },
+  {
+    "id": 6,
+    "username": "test",
+    "password": "scrypt:32768:8:1$W3Nv5jhmCaa2aJCM$f3c67f17358bfa8194b7d9df96d57ea1574f2dcb9b02b5a79596b8386f69cea1ad8f5ae3311c7a952842ab54c1760ee72ee1df71ff861d4fbd8d46bc41de985d",
+    "email": "t@e.com",
+    "is_admin": false,
+    "created_at": "2025-04-28T01:38:27.586728"
+  },
+  {
+    "id": 7,
+    "username": "bryan",
+    "password": "scrypt:32768:8:1$YUafD7Hp8Acd43IL$456c88295879a9c39ccdbfaafd708323c418b5edcb6c574d5b7f5ba4ad66c7f2e2f3dfb09299925aa64afed1d25d0500fbfa6f08d77bbd4f254186234059af7a",
+    "email": "bryan@email.com",
+    "is_admin": false,
+    "created_at": "2025-04-28T21:27:43.967528"
+  }
+]

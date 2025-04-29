@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "user_id": 1,
+    "subtotal_cents": 4400000,
+    "tax_cents": 264000,
+    "shipping_cost_cents": 0,
+    "total_cents": 4664000,
+    "shipping_address": "123 Main St, Anytown, USA",
+    "phone_number": "555-1212",
+    "card_last4": "1111",
+    "exp_month": 12,
+    "exp_year": 2026,
+    "cvv": "***",
+    "shipping_speed": "Ground",
+    "created_at": "2025-04-28T01:20:09.227066"
+  }
+]
