@@ -67,3 +67,13 @@ In this section, we outline how our marketplace will be implemented. The documen
 
 * Click [here](https://github.com/NanoFerreira/SWE_MainProject_Team1/blob/main/Coding%20style%20Guide.md) to view our Coding Style Guide, including naming rules, Git workflow, and Python formatting conventions.
 
+
+# Implemenation
+In this section, you will have access to our product. The following links will show you what we have built during the duration of the project.
+
+* Click [here]() to access the built implementation
+* Click [here]() to access the front-end development folder
+* Click [here]() to view all presentations for each section of our project
+
+
+
