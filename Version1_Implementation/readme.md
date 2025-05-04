@@ -44,10 +44,9 @@ We have few dependencies so its basically just flask and the password library as
 # 4) (optional) load sample data
 python seed_data.py
 
-Note this is not necessary because we have sample data already loaded in the json files in github. if you run the seed_data.py
+Note this is not necessary because we have sample data already loaded in the json files in github. If you run the seed_data.py
  file it will change the User json files containing usernames and passwords among other data. I would reccomend not doing
-  this unless you lost the original files for whatever reason. it would help you see what the data looks like but this is already
-   done fine in documentation and the original json files on the repo.
+  this unless you lost the original files for whatever reason.
 
 # 5) run the site
 python app.py
