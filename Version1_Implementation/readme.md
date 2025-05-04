@@ -67,7 +67,7 @@ so even an admin will not be able to read plaintext passwords.
 
 So be careful not to forget passwords in version 1. If you absolutely have to you can edit the user.json manually to type in a password in plaintext which will then get hashed at next run of the app.py file. 
 
-Adding inventory is fairly easy because variables are named well just be aware that prices are stored in cents not dollars and images need to be provided in the /static/image folder. 
+Adding inventory is fairly easy because variables are named well just be aware that prices are stored in cents not dollars and images need to be provided in the /static/images folder. 
 
 here is what your folder hierarchy should look like 
 
